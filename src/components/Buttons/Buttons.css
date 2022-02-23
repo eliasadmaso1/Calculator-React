@@ -1,0 +1,42 @@
+.btns {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.btns button {
+  padding: 4% 0%;
+  font-size: 0.9em;
+  width: 25%;
+  margin: 3% 0%;
+  color: black;
+  background-color: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  background-color: white;
+}
+
+.btns .operator:focus {
+  background-color: rgb(51, 51, 51);
+}
+
+.btns button:active {
+  background-color: rgb(51, 51, 51);
+}
+
+.btns .operator {
+  color: rgb(20, 89, 253);
+  font-size: 1.2em;
+}
+
+.btns button:first-child {
+  color: rgb(165, 40, 40);
+  font-size: 1.2em;
+}
+
+.btns .operator:last-child {
+  background-color: rgb(20, 89, 253);
+  width: 45%;
+  color: white;
+  border-bottom-right-radius: 8px;
+}
